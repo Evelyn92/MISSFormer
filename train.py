@@ -13,7 +13,7 @@ warnings.filterwarnings('ignore')
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--root_path', type=str,
-                    default='/dataset/Synapse/', help='root dir for data')
+                    default='/images/PublicDataset/Transunet_synaps/project_TransUNet/data/Synapse/', help='root dir for data')
 parser.add_argument('--dataset', type=str,
                     default='Synapse', help='experiment_name')
 parser.add_argument('--list_dir', type=str,
@@ -83,7 +83,7 @@ if __name__ == "__main__":
     dataset_config = {
         'Synapse': {
             'root_path': args.root_path,
-            'list_dir': './lists/lists_Synapse',
+            'list_dir': '/home/students/yiwei/yiwei_gitlab/MISSFormer-bridge/MISSFormer/lists/lists_Synapse',
             'num_classes': 9,
         },
     }

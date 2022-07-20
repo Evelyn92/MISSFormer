@@ -1,0 +1,23 @@
+[15:55:27.110] Namespace(accumulation_steps=None, amp_opt_level='O1', base_lr=0.05, batch_size=1, cache_mode='part', dataset='Synapse', deterministic=1, eval=False, img_size=224, list_dir='./lists/lists_Synapse', max_epochs=400, max_iterations=90000, n_gpu=1, num_classes=9, opts=None, output_dir='/home/students/yiwei/yiwei_gitlab/MISSFormer-bridge/MISSFormer/outputs', resume=None, root_path='/images/PublicDataset/Transunet_synaps/project_TransUNet/data/Synapse/train_npz', seed=1234, tag=None, throughput=False, use_checkpoint=False, zip=False)
+[15:57:30.828] Namespace(accumulation_steps=None, amp_opt_level='O1', base_lr=0.05, batch_size=1, cache_mode='part', dataset='Synapse', deterministic=1, eval=False, img_size=224, list_dir='/home/students/yiwei/yiwei_gitlab/MISSFormer-bridge/MISSFormer/lists/lists_Synapse', max_epochs=400, max_iterations=90000, n_gpu=1, num_classes=9, opts=None, output_dir='/home/students/yiwei/yiwei_gitlab/MISSFormer-bridge/MISSFormer/outputs', resume=None, root_path='/images/PublicDataset/Transunet_synaps/project_TransUNet/data/Synapse/train_npz', seed=1234, tag=None, throughput=False, use_checkpoint=False, zip=False)
+[15:57:30.921] 2211 iterations per epoch. 884400 max iterations 
+[15:57:34.952] iteration 1 : loss : 1.831814, loss_ce: 3.160463
+[15:57:35.076] iteration 2 : loss : 1.237607, loss_ce: 1.736457
+[15:57:35.198] iteration 3 : loss : 0.802266, loss_ce: 0.681685
+[15:57:35.311] iteration 4 : loss : 0.742572, loss_ce: 0.532031
+[15:57:35.431] iteration 5 : loss : 0.545974, loss_ce: 0.031489
+[15:57:35.539] iteration 6 : loss : 1.169925, loss_ce: 1.574459
+[15:57:35.655] iteration 7 : loss : 0.537323, loss_ce: 0.010080
+[15:57:35.764] iteration 8 : loss : 0.878656, loss_ce: 0.876501
+[15:57:35.879] iteration 9 : loss : 1.067675, loss_ce: 1.328986
+[15:57:35.992] iteration 10 : loss : 0.739083, loss_ce: 0.527462
+[15:57:36.109] iteration 11 : loss : 0.791046, loss_ce: 0.647934
+[15:57:36.220] iteration 12 : loss : 1.255765, loss_ce: 1.819990
+[15:57:36.331] iteration 13 : loss : 0.666267, loss_ce: 0.324402
+[15:57:36.443] iteration 14 : loss : 0.646207, loss_ce: 0.275583
+[15:57:36.551] iteration 15 : loss : 0.742178, loss_ce: 0.572704
+[15:57:36.676] iteration 16 : loss : 0.571917, loss_ce: 0.094619
+[15:57:36.790] iteration 17 : loss : 0.788607, loss_ce: 0.669317
+[15:57:36.913] iteration 18 : loss : 0.565465, loss_ce: 0.078716
+[15:57:37.042] iteration 19 : loss : 0.552510, loss_ce: 0.047288
+[15:57:37.152] iteration 20 : loss : 0.744061, loss_ce: 0.572733

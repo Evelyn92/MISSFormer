@@ -62,7 +62,7 @@ def trainer_synapse(args, model, snapshot_path):
     for epoch_num in iterator:
         for i_batch, sampled_batch in enumerate(trainloader):
             image_batch, label_batch = sampled_batch['image'], sampled_batch['label']
-            # print("data shape---------", image_batch.shape, label_batch.shape)
+            print("data shape---------", image_batch.shape, label_batch.shape)
             image_batch, label_batch = image_batch.cuda(), label_batch.squeeze(1).cuda()
             outputs = model(image_batch)
             # outputs = F.interpolate(outputs, size=label_batch.shape[1:], mode='bilinear', align_corners=False)
